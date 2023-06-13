@@ -1,0 +1,123 @@
+.headercontainer{
+    height: 100px;
+    width: 100%;
+    background-color:#fff;
+    display: flex;
+    box-sizing: border-box;
+}
+.header{
+  text-align: center;
+  width: 20%;
+  height: 100%;
+  border: 1px solid black;
+}
+.header_1{
+    color: red;
+    text-decoration: underline;
+}
+.header_2{
+    color: blue;
+    font-size: 20px;
+    position: relative;
+    bottom: 10px;
+}
+.header_3{
+    background-color: red;
+    height: 60px;
+    width:100% ;
+    border: 2px solid black ;
+}
+.header_4{
+    background-color: bisque;
+    height:40px ;
+    width: 100%;
+}
+.header_5{
+    display: flex;
+    position: relative;
+    top: 15px;
+    left: 20px;
+}
+.select{
+    height: 40px;
+    width: 50px;
+}
+.input{
+    height: 40px;
+    width: 600px;
+}
+.search{
+    height: 40px;
+    width: 50px;
+}
+.header1{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+}
+.btn1{
+    height: 100%;
+    width:25% ;
+}
+.welcome{
+    
+    font-weight: 800;
+    color: #fff;
+}
+.sign{
+    position: relative;
+    left: 90px;
+}
+.image1{
+    height: 50px;
+    width: 100px;
+    background-color:#fff;
+    position: relative;
+    left: 200px;
+    bottom: 10px;
+    color: black;
+    display: flex;
+}
+img{
+    height: 100%;
+    color: #fff;
+}
+.card{
+    position: relative;
+    top: 20px;
+    font-weight: 700;
+}
+.banner{
+    height: 200px;
+    width: 100%;
+    position: relative;
+    bottom: 110px;
+}
+.bannerimg{
+    height: 130%;
+    width: 100%;
+}
+.boxcontainer{
+    height: 400px;
+    width: 100%;
+    background-color: #fff;
+    display: grid;
+    grid-template-columns:auto auto auto auto auto ;
+    box-sizing: border-box;
+    
+}
+.boxes{
+    position: relative;
+    top: 10px;
+    left: 60px;
+    height: 150px;
+    width: 200px;
+    text-align: center;
+    margin-bottom: 20px;
+    
+}
+.boximg{
+    height: 100%;
+    width: 100%;
+}
